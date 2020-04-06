@@ -13,7 +13,6 @@ function App() {
       <Router>
         <TripSearch path="/" />
         <TripSearchResults path="results/:word/:status/:distance/:duration"/>
-        <TripDetail path="trip/:id" />
       </Router>
     </Container>
   );
