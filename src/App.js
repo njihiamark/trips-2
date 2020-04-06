@@ -2,7 +2,6 @@ import React from 'react';
 import { Container } from 'semantic-ui-react';
 import { Router } from "@reach/router"
 
-import TripDetail from './screens/TripDetail';
 import TripSearchResults from './screens/TripSearchResults';
 import TripSearch from './screens/TripSearch';
 
