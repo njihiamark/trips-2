@@ -1,14 +1,20 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import TripSearch from './screens/TripSearch';
+import { Router } from "@reach/router"
+
+import TripDetail from './screens/TripDetail';
 import TripSearchResults from './screens/TripSearchResults';
+import TripSearch from './screens/TripSearch';
 
 
 function App() {
   return (
     <Container style={styles.containerPadding}>
-      <TripSearch  />
-      <TripSearchResults />
+      <Router>
+        <TripSearch path="/" />
+        <TripSearchResults path="results/:word/:status/:distance/:duration"/>
+        <TripDetail path="trip/:id" />
+      </Router>
     </Container>
   );
 };
