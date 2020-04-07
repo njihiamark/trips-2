@@ -1,4 +1,4 @@
 ## Trips App
 
-Building a multiple search input form using React hooks and Semantic UI
+Building a multi-input search form using React hooks and Semantic UI
 
