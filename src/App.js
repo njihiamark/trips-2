@@ -4,6 +4,7 @@ import { Router } from "@reach/router"
 
 import TripSearchResults from './screens/TripSearchResults';
 import TripSearch from './screens/TripSearch';
+import TripDetail from './screens/TripDetail';
 
 
 function App() {
